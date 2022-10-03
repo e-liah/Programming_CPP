@@ -14,9 +14,9 @@ int main()
     cout<<"Employee ID: ";
     cin>>id;
     cout<<"Employee Name: ";
-    cin>>name;
+    getline(cin, name);
     cout<<"Payroll Period: ";
-    cin>>date;
+    getline(cin, date);
     cout<<"Enter monthly salary: ";
     cin>>setprecision(2)>>msalary;
     cout<<"Enter lates and absences (in minutes): ";
