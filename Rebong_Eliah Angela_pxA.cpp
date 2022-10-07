@@ -18,6 +18,7 @@ int main()
     int sem_grade;
     
     //inputs
+    /* edit: no need for any inputs like this. inputs should be made at the final outputs part already to comply with the given layout. */
     cout<<"Enter student name: ";
     getline(cin, name);
     cout<<"Enter student number: ";
